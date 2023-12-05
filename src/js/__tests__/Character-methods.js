@@ -1,4 +1,4 @@
-import Bowman from '../class-Bowman';
+import Bowman from '../Bowman';
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Если здоровье персонажа = 0, метод levelUp() выбросит ошибку

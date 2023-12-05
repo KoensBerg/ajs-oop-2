@@ -1,10 +1,5 @@
 export default class Character {
-  constructor(name, type, attack, defence) {
-    this.health = 100;
-    this.level = 1;
-    this.attack = attack;
-    this.defence = defence;
-
+  constructor(name, type) {
     if (typeof name !== 'string') {
       throw new Error('Имя персонажа должно иметь тип -строка-');
     } else if (name.length < 2 || name.length > 10) {
@@ -20,6 +15,12 @@ export default class Character {
     } else {
       this.type = type;
     }
+
+    this.health = 100;
+    this.level = 1;
+
+    this.attack = undefined;
+    this.defence = undefined;
   }
 
   // метод повышает уровень игрока

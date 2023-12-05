@@ -1,8 +1,8 @@
 import './css/style.css';
-import './js/class-Character';
-import './js/class-Bowman';
-import './js/class-Swordsman';
-import './js/class-Magician';
-import './js/class-Daemon';
-import './js/class-Undead';
-import './js/class-Zombie';
+import './js/Character';
+import './js/Bowman';
+import './js/Swordsman';
+import './js/Magician';
+import './js/Daemon';
+import './js/Undead';
+import './js/Zombie';
