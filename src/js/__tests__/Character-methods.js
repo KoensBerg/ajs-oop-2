@@ -55,7 +55,7 @@ test('should levelUp() to lower health', () => {
 // - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Метод damage(points) снизит уровень здоровья до 0
 // - - - - - - - - - - - - - - - - - - - - - - - - - -
-test('throws on levelUp() if health === 0', () => {
+test('should levelUp() to reduce health to zero', () => {
   const persOlgerd = new Bowman('Olgerd');
 
   persOlgerd.health = 10;
